@@ -5,6 +5,10 @@ h1 {
 }
 
 body {
+	background-image: url("../photos/yasukuni.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% auto;
 	background-color: #2E2E2E;
 }
 
