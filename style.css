@@ -7,3 +7,15 @@ h1 {
 body {
 	background-color: #2E2E2E;
 }
+
+.bottom {
+	position: fixed;
+	bottom: 0;
+	display: inline-block;
+}
+
+.pos {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
