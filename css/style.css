@@ -1,17 +1,59 @@
 h1 {
-	color: #E6E6E6;
+	color: #2E2E2E;
 	text-align: center;
 	font-family: monospace;
 }
 
 body {
-	background-color: #2E2E2E;
+	background-color: #FAFAFA;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-right: 150px;
+	font-family: monospace;
+	font-size: 14px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 24px;
+	background-color: #A4A4A4;
+}
+
+li a:hover {
+	background-color: #084B8A;
+}
+
+.active {
+	background-color: #2E9AFE;
 }
 
 .bottom {
 	position: fixed;
 	bottom: 0;
 	display: inline-block;
+}
+
+.middle {
+	background-position: center;
+	background-color: #585858;
+	font-family: monospace;
+	text-align: center;
+	color: #FAFAFA;
+	height: 200px;
+	position: fixed;
+	width: 400px;
 }
 
 .pos {
