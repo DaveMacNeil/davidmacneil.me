@@ -1,11 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
 h1 {
 	color: #2E2E2E;
 	text-align: center;
-	font-family: monospace;
+	font-size: 250%;
+}
+
+h2 {
+	color: #2E2E2E;
+	font-size: 150%;
+	position: absolute;
+	top: 50%;
+	left: 20%;
 }
 
 body {
 	background-color: #D8D8D8;
+	font-family: 'Raleway', sans-serif;
 }
 
 .page-top {
