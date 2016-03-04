@@ -55,27 +55,29 @@ li a:hover {
 /*End Menu*/
 
 body {
-	background-color: #D8D8D8;
+	background-color: #6E6E6E	;
 	font-family: 'Raleway', sans-serif;
 }
 
 .page-top {
-	background-color: #D8D8D8;
+	background-color: #F2F2F2;
 	height: 1000px;
-	margin: 0px -5px -26px -5px;
+	margin: -27px -8px -27px -8px;
 
 }
 
 .page-upper-mid {
-	background-color: #BDBDBD;
+	background-color: #A4A4A4;
 	height: 1000px;
-	margin: 0px -5px -26px -8px;
+	margin: 0px -8px -27px -8px;
 }
 
 .page-lower-mid {
-	background-color: #A4A4A4;
+	background-color: #6E6E6E;
 	height: 1000px;
-	margin: 0px -5px -26px -8px;
+	margin: 0px -8px -27px -8px;
+
+	color: #F2F2F2;
 }
 
 .page-bottom {
