@@ -1,4 +1,14 @@
+/* The font used is "Raleway" */ 
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+body {
+	background-color: #6E6E6E	;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	padding-left: 170px;
+}
 
 h1 {
 	color: #2E2E2E;
@@ -17,19 +27,17 @@ h2 {
 }
 
 h3 {
-	padding-left: 40px;
+	padding-left: 150px;
 }
 
-p {
-	padding-left: 50px;
-}
-
-/*Menu*/
+/* Menu */
 ul {
 	list-style-type: none;
+	position: fixed;
 	margin: 0;
-	padding: 0px 0px 0px 0px;
+	padding: 0;
 	width: 100px;
+	overflow: auto;
 	background-color: #585858;
 }
 
@@ -46,19 +54,15 @@ li a:hover {
 }
 
 #menu {
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .active{
 	background-color: #8181F7;
 }
-/*End Menu*/
+/* End Menu */
 
-body {
-	background-color: #6E6E6E	;
-	font-family: 'Raleway', sans-serif;
-}
-
+/* Different sections of the page  */
 .page-top {
 	background-color: #F2F2F2;
 	height: 1300px;
@@ -82,11 +86,8 @@ body {
 .page-bottom {
 	position: fixed;
 	bottom: 0;
-	display: inline-block;
-	border-style: solid;
 	border-width: 1px;
-	background-color: #585858;
-	margin-left: -8px;
+	margin-left: 1100px;
 }
 
 .pos {
