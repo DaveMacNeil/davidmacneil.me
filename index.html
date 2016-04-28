@@ -7,37 +7,42 @@
 		<meta charset="UTF-8">
 		<meta name="keywords" content = "David, Peter, MacNeil">
 		<meta name="description" content ="Personal website">
-		<meta name=viewport content="width = device-width, initial-scale=1">
+		<meta name=viewport content="width=device-width, initial-scale=1">
 		<title>David MacNeil</title>
 	</head>
 
 	<body>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			//Puts links to right side of screen
+			var rightEnd = $(window).width() - 250;
+			$("#Bottom").css("margin-left", rightEnd);
+
+			//Makes current pages menu button active
+		});
+	</script>
 
 	<div class ="page-top" id="Home">
 		<h1 class="padding-top">David Peter MacNeil</h1>
-
 		<div id="menu">
 		<ul>
-			<li class="active"><a href="#Home">Home</a></li>
-			<li><a href="#About">About</a></li>
-			<li><a href="#Contact">Contact</a></li>
+			<li id="homeButton"><a href="#Home">Home</a></li>
+			<li id="aboutButton"><a href="#About">About</a></li>
+			<li id="contactButton"><a href="#Contact">Contact</a></li>
 		</ul>
 		</div>
-
 		<br>
-
 		<h2>I'm a Computer Science co-op student and aspiring Software Developer</h2>
-
 	</div>
 	
 	<!--About page-->
 	<div class="page-upper-mid" id="About">
 			<h1 class="padding-top">About</h1>
-
 			<br>
-
 			<div>
-			<p>I was Born and Raised in Prince Edward Island, Canada. I am a technology ethusiast, but I also love movies, reading, and hiking.</p>
+			<p>I was Born and Raised in Prince Edward Island, Canada. I am a technology ethusiast, but I also love movies, reading, hiking, and mountain biking.</p>
 
 				<h3>Education</h3>
 					<p>Third Year Computer Science co-op student at the <a href="http://www.upei.ca/">University of Prince Edward Island.</a></p>
@@ -66,18 +71,15 @@
 	<!--Contact Page-->
 	<div class ="page-lower-mid" id="Contact">
 			<h1 class="padding-top">Contact</h1>
-
 			<br>
-
 			<div>
 				<h3>If you'd like to get in touch feel free to reach out on Linkedin</h3>
 				<h3>Otherwise you can e-mail me at davidpetermacneil@gmail.com</h3>
 			</div>
-	
 	</div>
-	<!--Links to other accounts-->
-	<div class="page-bottom" id="#Bottom">
 
+	<!--Links to other accounts-->
+	<div class="page-bottom" id="Bottom">
 		<p class="pos"><a href="https://www.linkedin.com/in/david-peter-macneil-b9843957">
 		<img border="0" alt="linkedin" src="photos/linkedin.png"
 		height="50px"></a></p>
